@@ -1,4 +1,4 @@
-from Direction import Context
+from direction import Context
 
 width  = int(input("Enter the width: "))
 height = int(input("Enter the height: "))
