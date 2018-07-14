@@ -6,6 +6,13 @@ that circles around the bounds of the matrix in a clockwise fashion.
 
 No checkers for valid types were performed: the program will crash if a non-integer value is given.
 
+The program uses the [State Pattern](https://en.wikipedia.org/wiki/State_pattern) in determining which direction to place the next number.
+
+## Usage
+```shell
+$ py -3 print_spiral.py
+```
+
 ## Input
 The height and width of the matrix.
 
